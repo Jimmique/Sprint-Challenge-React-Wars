@@ -27,16 +27,22 @@ const App = () => {
       .catch( err => console.log(err))
   }, []);
 
+  const Header = styled.h1`
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  color: rgba(234, 210, 1, 0.87);
+`;
+
 if(!people) return (
   <div className="App">
-    <h1 className="Header">React Wars</h1>
+    <Header className="Header">React Wars</Header>
   </div>
   )
   
 
 return (
   <div className="App">
-    <h1 className="Header">React Wars</h1>
+    <Header className="Header">React Wars</Header>
     <Wrapper>
       {people.map( people => <People info={people} />)}
     </Wrapper>  
