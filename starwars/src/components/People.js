@@ -30,12 +30,12 @@ font-weight: 400;
     <Card>
       <Name>Name: {info.name}</Name>
       <Stat><strong>Height:</strong> {info.height} </Stat>
-      <Stat>Mass: {info.mass} </Stat>
-      <Stat>Hair Color: {capitalizeText(info.hair_color)}</Stat>
-      <Stat>Skin Color: {capitalizeText(info.skin_color)}</Stat>
-      <Stat>Eye Color: {capitalizeText(info.eye_color)}</Stat>
-      <Stat>Birth Year: {info.birth_year}</Stat>
-      <Stat>Gender: {capitalizeText(info.gender)}</Stat>
+      <Stat><strong>Mass:</strong> {info.mass} </Stat>
+      <Stat><strong>Hair Color:</strong> {capitalizeText(info.hair_color)}</Stat>
+      <Stat><strong>Skin Color:</strong> {capitalizeText(info.skin_color)}</Stat>
+      <Stat><strong>Eye Color:</strong> {capitalizeText(info.eye_color)}</Stat>
+      <Stat><strong>Birth Year:</strong> {info.birth_year}</Stat>
+      <Stat><strong>Gender:</strong> {capitalizeText(info.gender)}</Stat>
     </Card>
   )
 }
